@@ -1,0 +1,558 @@
+[
+  {
+    "capId": 1,
+    "name": "Classic Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/qBXVyBP/Cap-1.jpg",
+      "https://i.ibb.co/N1w7fjg/Cap-2.jpg",
+      "https://i.ibb.co/mvR9WVZ/Cap-3.jpg",
+      "https://i.ibb.co/3rSgCTB/Cap-4.jpg",
+      "https://i.ibb.co/HKwynFf/Cap-5.jpg"
+    ],
+    "price": 650,
+    "ratings": 4.7,
+    "description": "A timeless classic cap that suits any occasion. With its minimalist design and comfortable fit, it's a versatile accessory for your everyday style."
+  },
+  {
+    "capId": 2,
+    "name": "Stylish Denim Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/N1w7fjg/Cap-2.jpg",
+      "https://i.ibb.co/N1w7fjg/Cap-2.jpg",
+      "https://i.ibb.co/N1w7fjg/Cap-2.jpg",
+      "https://i.ibb.co/N1w7fjg/Cap-2.jpg",
+      "https://i.ibb.co/N1w7fjg/Cap-2.jpg"
+    ],
+    "price": 750,
+    "ratings": 3.9,
+    "description": "Add a touch of style with this denim cap. Crafted with high-quality denim fabric, it's perfect for casual outings and adds an effortlessly cool vibe to your look."
+  },
+  {
+    "capId": 3,
+    "name": "Sporty Performance Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/mvR9WVZ/Cap-3.jpg",
+      "https://i.ibb.co/mvR9WVZ/Cap-3.jpg",
+      "https://i.ibb.co/mvR9WVZ/Cap-3.jpg",
+      "https://i.ibb.co/mvR9WVZ/Cap-3.jpg",
+      "https://i.ibb.co/mvR9WVZ/Cap-3.jpg"
+    ],
+    "price": 600,
+    "ratings": 4.5,
+    "description": "Get ready for any sports activity with this sporty cap. Engineered for performance, its lightweight and breathable design keeps you comfortable while you conquer your goals."
+  },
+  {
+    "capId": 4,
+    "name": "Urban Streetwear Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/3rSgCTB/Cap-4.jpg",
+      "https://i.ibb.co/3rSgCTB/Cap-4.jpg",
+      "https://i.ibb.co/3rSgCTB/Cap-4.jpg",
+      "https://i.ibb.co/3rSgCTB/Cap-4.jpg",
+      "https://i.ibb.co/3rSgCTB/Cap-4.jpg"
+    ],
+    "price": 580,
+    "ratings": 4.2,
+    "description": "Elevate your street style with this urban-inspired cap. Its unique design and bold logo make a statement, while the adjustable strap ensures a customized fit."
+  },
+  {
+    "capId": 5,
+    "name": "Vintage Camo Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/HKwynFf/Cap-5.jpg",
+      "https://i.ibb.co/HKwynFf/Cap-5.jpg",
+      "https://i.ibb.co/HKwynFf/Cap-5.jpg",
+      "https://i.ibb.co/HKwynFf/Cap-5.jpg",
+      "https://i.ibb.co/HKwynFf/Cap-5.jpg"
+    ],
+    "price": 690,
+    "ratings": 4.8,
+    "description": "Embrace the retro vibe with this vintage camo cap. The camo pattern adds a touch of nostalgia, and the soft cotton material ensures all-day comfort."
+  },
+  {
+    "capId": 6,
+    "name": "Classic Trucker Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/KqgnSHB/Cap-6.jpg",
+      "https://i.ibb.co/KqgnSHB/Cap-6.jpg",
+      "https://i.ibb.co/KqgnSHB/Cap-6.jpg",
+      "https://i.ibb.co/KqgnSHB/Cap-6.jpg",
+      "https://i.ibb.co/KqgnSHB/Cap-6.jpg"
+    ],
+    "price": 620,
+    "ratings": 3.7,
+    "description": "Stay cool and casual with this classic trucker cap. The mesh back provides ventilation, and the adjustable snapback closure ensures a snug fit."
+  },
+  {
+    "capId": 7,
+    "name": "Sleek Leather Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/sQ5S6WT/Cap-7.jpg",
+      "https://i.ibb.co/sQ5S6WT/Cap-7.jpg",
+      "https://i.ibb.co/sQ5S6WT/Cap-7.jpg",
+      "https://i.ibb.co/sQ5S6WT/Cap-7.jpg",
+      "https://i.ibb.co/sQ5S6WT/Cap-7.jpg"
+    ],
+    "price": 880,
+    "ratings": 4.6,
+    "description": "Elevate your style with this sleek leather cap. Crafted from genuine leather, it adds a touch of sophistication to your outfit and exudes modern elegance."
+  },
+  {
+    "capId": 8,
+    "name": "Retro Snapback Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/3kStm18/Cap-8.jpg",
+      "https://i.ibb.co/3kStm18/Cap-8.jpg",
+      "https://i.ibb.co/3kStm18/Cap-8.jpg",
+      "https://i.ibb.co/3kStm18/Cap-8.jpg",
+      "https://i.ibb.co/3kStm18/Cap-8.jpg"
+    ],
+    "price": 580,
+    "ratings": 3.5,
+    "description": "Step back in time with this retro snapback cap. Its vibrant colors and vintage design capture the essence of the past while keeping your style fresh."
+  },
+  {
+    "capId": 9,
+    "name": "Active Mesh Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/fQjLfks/Cap-9.jpg",
+      "https://i.ibb.co/fQjLfks/Cap-9.jpg",
+      "https://i.ibb.co/fQjLfks/Cap-9.jpg",
+      "https://i.ibb.co/fQjLfks/Cap-9.jpg",
+      "https://i.ibb.co/fQjLfks/Cap-9.jpg"
+    ],
+    "price": 520,
+    "ratings": 4.9,
+    "description": "Stay active and stylish with this mesh cap. The breathable mesh material keeps you cool during workouts, and the adjustable strap ensures a secure fit."
+  },
+  {
+    "capId": 10,
+    "name": "Minimalist Logo Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/XzP7CWk/Cap-10.jpg",
+      "https://i.ibb.co/XzP7CWk/Cap-10.jpg",
+      "https://i.ibb.co/XzP7CWk/Cap-10.jpg",
+      "https://i.ibb.co/XzP7CWk/Cap-10.jpg",
+      "https://i.ibb.co/XzP7CWk/Cap-10.jpg"
+    ],
+    "price": 450,
+    "ratings": 3.8,
+    "description": "Keep it simple and stylish with this minimalist logo cap. The clean design and subtle logo embroidery make it a versatile accessory for any outfit."
+  },
+  {
+    "capId": 11,
+    "name": "Outdoor Adventure Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/T292YPJ/Cap-11-1.jpg",
+      "https://i.ibb.co/T292YPJ/Cap-11-2.jpg",
+      "https://i.ibb.co/T292YPJ/Cap-11-3.jpg",
+      "https://i.ibb.co/T292YPJ/Cap-11-4.jpg",
+      "https://i.ibb.co/T292YPJ/Cap-11-5.jpg"
+    ],
+    "price": 690,
+    "ratings": 4.2,
+    "description": "Gear up for outdoor explorations with this adventure cap. Its durable construction and adjustable strap ensure a comfortable fit on all your journeys."
+  },
+  {
+    "capId": 12,
+    "name": "Classic Baseball Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/K6T3xRp/Cap-12-1.jpg",
+      "https://i.ibb.co/K6T3xRp/Cap-12-2.jpg",
+      "https://i.ibb.co/K6T3xRp/Cap-12-3.jpg",
+      "https://i.ibb.co/K6T3xRp/Cap-12-4.jpg",
+      "https://i.ibb.co/K6T3xRp/Cap-12-5.jpg"
+    ],
+    "price": 580,
+    "ratings": 3.9,
+    "description": "The classic baseball cap never goes out of style. With a curved brim and embroidered logo, it's a versatile accessory for everyday wear."
+  },
+  {
+    "capId": 13,
+    "name": "Vintage Logo Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/WWvX2F3/Cap-13-1.jpg",
+      "https://i.ibb.co/WWvX2F3/Cap-13-2.jpg",
+      "https://i.ibb.co/WWvX2F3/Cap-13-3.jpg",
+      "https://i.ibb.co/WWvX2F3/Cap-13-4.jpg",
+      "https://i.ibb.co/WWvX2F3/Cap-13-5.jpg"
+    ],
+    "price": 620,
+    "ratings": 4.5,
+    "description": "Capture the essence of vintage with this logo cap. The retro-inspired design and distressed logo add character to your casual look."
+  },
+  {
+    "capId": 14,
+    "name": "Casual Dad Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/df6Mmnq/Cap-14-1.jpg",
+      "https://i.ibb.co/df6Mmnq/Cap-14-2.jpg",
+      "https://i.ibb.co/df6Mmnq/Cap-14-3.jpg",
+      "https://i.ibb.co/df6Mmnq/Cap-14-4.jpg",
+      "https://i.ibb.co/df6Mmnq/Cap-14-5.jpg"
+    ],
+    "price": 480,
+    "ratings": 4.7,
+    "description": "Embrace the casual cool of a dad cap. With its relaxed fit and curved brim, it's the perfect accessory to complete your laid-back style."
+  },
+  {
+    "capId": 15,
+    "name": "Urban Snapback Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/XSyC1TY/Cap-15-1.jpg",
+      "https://i.ibb.co/XSyC1TY/Cap-15-2.jpg",
+      "https://i.ibb.co/XSyC1TY/Cap-15-3.jpg",
+      "https://i.ibb.co/XSyC1TY/Cap-15-4.jpg",
+      "https://i.ibb.co/XSyC1TY/Cap-15-5.jpg"
+    ],
+    "price": 560,
+    "ratings": 4.2,
+    "description": "Elevate your streetwear game with this urban snapback cap. Its bold design and structured fit make a statement wherever you go."
+  },
+  {
+    "capId": 16,
+    "name": "Vintage Corduroy Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/ZdRvvYJ/Cap-16-1.jpg",
+      "https://i.ibb.co/ZdRvvYJ/Cap-16-2.jpg",
+      "https://i.ibb.co/ZdRvvYJ/Cap-16-3.jpg",
+      "https://i.ibb.co/ZdRvvYJ/Cap-16-4.jpg",
+      "https://i.ibb.co/ZdRvvYJ/Cap-16-5.jpg"
+    ],
+    "price": 720,
+    "ratings": 3.9,
+    "description": "Add a touch of nostalgia with this vintage corduroy cap. The textured fabric and adjustable strap combine style and comfort in one."
+  },
+  {
+    "capId": 17,
+    "name": "Color Block Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/FHppXs2/Cap-17-1.jpg",
+      "https://i.ibb.co/FHppXs2/Cap-17-2.jpg",
+      "https://i.ibb.co/FHppXs2/Cap-17-3.jpg",
+      "https://i.ibb.co/FHppXs2/Cap-17-4.jpg",
+      "https://i.ibb.co/FHppXs2/Cap-17-5.jpg"
+    ],
+    "price": 520,
+    "ratings": 4.5,
+    "description": "Make a bold statement with this color block cap. The vibrant colors and modern design add a pop of energy to your ensemble."
+  },
+  {
+    "capId": 18,
+    "name": "Premium Wool Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/C1WD5Z7/Cap-18-1.jpg",
+      "https://i.ibb.co/C1WD5Z7/Cap-18-2.jpg",
+      "https://i.ibb.co/C1WD5Z7/Cap-18-3.jpg",
+      "https://i.ibb.co/C1WD5Z7/Cap-18-4.jpg",
+      "https://i.ibb.co/C1WD5Z7/Cap-18-5.jpg"
+    ],
+    "price": 850,
+    "ratings": 4.7,
+    "description": "Elevate your winter style with this premium wool cap. The warm and soft wool material ensures cozy comfort, even on the coldest days."
+  },
+  {
+    "capId": 19,
+    "name": "Vintage Patch Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/gtHxKR6/Cap-19-1.jpg",
+      "https://i.ibb.co/gtHxKR6/Cap-19-2.jpg",
+      "https://i.ibb.co/gtHxKR6/Cap-19-3.jpg",
+      "https://i.ibb.co/gtHxKR6/Cap-19-4.jpg",
+      "https://i.ibb.co/gtHxKR6/Cap-19-5.jpg"
+    ],
+    "price": 590,
+    "ratings": 4.2,
+    "description": "Add character to your look with this vintage patch cap. The distressed patches and classic design give a nod to retro aesthetics."
+  },
+  {
+    "capId": 20,
+    "name": "Athletic Performance Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/X8GCRfH/Cap-20-1.jpg",
+      "https://i.ibb.co/X8GCRfH/Cap-20-2.jpg",
+      "https://i.ibb.co/X8GCRfH/Cap-20-3.jpg",
+      "https://i.ibb.co/X8GCRfH/Cap-20-4.jpg",
+      "https://i.ibb.co/X8GCRfH/Cap-20-5.jpg"
+    ],
+    "price": 670,
+    "ratings": 3.8,
+    "description": "Maximize your athletic performance with this high-tech cap. It's designed to wick away sweat and provide optimal ventilation, keeping you focused on your goals."
+  },
+  {
+    "capId": 21,
+    "name": "Classic Tweed Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/yfpWDks/Cap-21-1.jpg",
+      "https://i.ibb.co/yfpWDks/Cap-21-2.jpg",
+      "https://i.ibb.co/yfpWDks/Cap-21-3.jpg",
+      "https://i.ibb.co/yfpWDks/Cap-21-4.jpg",
+      "https://i.ibb.co/yfpWDks/Cap-21-5.jpg"
+    ],
+    "price": 720,
+    "ratings": 4.6,
+    "description": "Elevate your style with this classic tweed cap. The sophisticated tweed fabric adds texture and refinement to your outfit."
+  },
+  {
+    "capId": 22,
+    "name": "Modern Logo Cap",
+    "category": "Curve Cap",
+    "imgs": [
+      "https://i.ibb.co/jM9d4ts/Cap-22-1.jpg",
+      "https://i.ibb.co/jM9d4ts/Cap-22-2.jpg",
+      "https://i.ibb.co/jM9d4ts/Cap-22-3.jpg",
+      "https://i.ibb.co/jM9d4ts/Cap-22-4.jpg",
+      "https://i.ibb.co/jM9d4ts/Cap-22-5.jpg"
+    ],
+    "price": 560,
+    "ratings": 3.7,
+    "description": "Make a statement with this modern logo cap. The bold logo embroidery and sleek design add a contemporary touch to your look."
+  },
+  {
+    "capId": 23,
+    "name": "Hip Hop Vibes Cap 1",
+    "category": "Hip Hop Cap",
+    "imgs": [
+      "https://i.postimg.cc/YCsgW0Kz/10c825c31bac43468b2e786f57241f11-49360363-649050962177319-562114593696052715-n.jpg",
+      "https://i.postimg.cc/4xq730V8/bb8998319a7c4385836cfb1d1a99db19-50012302-2200761320242419-1954520397334249603-n.jpg",
+      "https://i.postimg.cc/26f1QBHh/c0492b10bab6499f932ec9a844436a32-47693585-2193953530664308-8744629938131655571-n.jpg",
+      "https://i.postimg.cc/x86qVp93/d67c3284bd4d46608a49d7902f2704e1-19051937-235265226964156-2918146504847785984-n.jpg",
+      "https://i.postimg.cc/C1HzmLtt/da2b60129a1347f9a0500ac2129e2186-49906804-325501328306353-1905317788829487918-n.jpg"
+    ],
+    "price": 520,
+    "ratings": 4.8,
+    "description": "Express your hip hop vibes with this stylish cap. The unique pattern and adjustable fit make it a perfect addition to your streetwear."
+  },
+  {
+    "capId": 24,
+    "name": "Hip Hop Vibes Cap 2",
+    "category": "Hip Hop Cap",
+    "imgs": [
+      "https://i.postimg.cc/j2xC9YYj/db0e581b2a5b48af8eaab11ebabb121c-49858615-1957932750982190-2013622731736721141-n.jpg",
+      "https://i.postimg.cc/jSp2T7Ym/f64b7d72769048539bc79fa9d195c7f2-19051406-1857411264520516-8519243643670757376-n.jpg",
+      "https://i.postimg.cc/V6b38J1G/3a7547ec625f4e12b9895df8190e7ac5-117359325-669703573893579-9139374242286486878-n.jpg",
+      "https://i.postimg.cc/Wb7xTLLv/46f20411583346efbc6b322852a96eeb-117404095-622212342054469-2361925431731017118-n.jpg",
+      "https://i.postimg.cc/ZYp1svw0/4ac992118cfc462cb0201de95a30aeb5-258353809-414124570446309-8690844240666179318-n.jpg"
+    ],
+    "price": 530,
+    "ratings": 4.5,
+    "description": "Elevate your style with this Hip Hop Vibes Cap. The high-quality materials and stylish design make it a perfect accessory for hip hop enthusiasts."
+  },
+  {
+    "capId": 25,
+    "name": "Hip Hop Vibes Cap 3",
+    "category": "Hip Hop Cap",
+    "imgs": [
+      "https://i.postimg.cc/R0WY7W3S/5313e882285f45db94ffbce25879e511-363812710-219640151057764-9175490023780732668-n.jpg",
+      "https://i.postimg.cc/rFT7ByHj/5bb42d58a73c4b87aca6870e7a82d3a8-117287662-2886737318104473-6146556024592800253-n.jpg",
+      "https://i.postimg.cc/ZntXKJ5T/6eacd32adef24fe69ddef08c99c7c331-251518272-1284966178656035-6873890289547515353-n.jpg",
+      "https://i.postimg.cc/Fzy8YwY0/72fa775be2f04989aad981e58abf0c9e-251172777-314248263463676-1164403439609450078-n.jpg",
+      "https://i.postimg.cc/XvtzQnFw/b570741873fb41248fd9d83ebedf53c5-117226438-701444307106250-2217306946427212469-n.jpg"
+    ],
+    "price": 550,
+    "ratings": 4.9,
+    "description": "Make a bold statement with this Hip Hop Vibes Cap. The unique design and vibrant colors bring an energetic vibe to your style."
+  },
+  {
+    "capId": 26,
+    "name": "Hip Hop Vibes Cap 4",
+    "category": "Hip Hop Cap",
+    "imgs": [
+      "https://i.postimg.cc/nhcgLRpQ/b63f52694de94f3e8f57848d4b106766-117257168-604461450238047-5087082782328841736-n.jpg",
+      "https://i.postimg.cc/prJcW8SZ/bfce78ae9f044af0be4ba52b4f001329-363872252-1096472107983582-5575326329720057945-n.jpg",
+      "https://i.postimg.cc/bNqF6CGF/c9e38552dd9445eba8e3535501d697b8-363946814-1318383358883521-4079934998972595763-n.jpg",
+      "https://i.postimg.cc/kXwYLQKM/dd1d2e1983f942fdb52502fb1e4bc512-257902048-131021215971492-4973413212224971332-n.jpg",
+      "https://i.postimg.cc/L8XQSJ3t/ef49c089c72b45789e106f2e06788d9c-117183878-186856276168965-2914713289328633279-n.jpg"
+    ],
+    "price": 550,
+    "ratings": 4.9,
+    "description": "Make a bold statement with this Hip Hop Vibes Cap. The unique design and vibrant colors bring an energetic vibe to your style."
+  },
+  {
+    "capId": 27,
+    "name": "Hip Hop Vibes Cap 5",
+    "category": "Hip Hop Cap",
+    "imgs": [
+      "https://i.postimg.cc/j2xC9YYj/db0e581b2a5b48af8eaab11ebabb121c-49858615-1957932750982190-2013622731736721141-n.jpg",
+      "https://i.postimg.cc/jSp2T7Ym/f64b7d72769048539bc79fa9d195c7f2-19051406-1857411264520516-8519243643670757376-n.jpg",
+      "https://i.postimg.cc/V6b38J1G/3a7547ec625f4e12b9895df8190e7ac5-117359325-669703573893579-9139374242286486878-n.jpg",
+      "https://i.postimg.cc/Wb7xTLLv/46f20411583346efbc6b322852a96eeb-117404095-622212342054469-2361925431731017118-n.jpg",
+      "https://i.postimg.cc/ZYp1svw0/4ac992118cfc462cb0201de95a30aeb5-258353809-414124570446309-8690844240666179318-n.jpg"
+    ],
+    "price": 530,
+    "ratings": 4.5,
+    "description": "Elevate your style with this Hip Hop Vibes Cap. The high-quality materials and stylish design make it a perfect accessory for hip hop enthusiasts."
+  },
+  {
+    "capId": 28,
+    "name": "Urban Street Snapback 1",
+    "category": "Snapback Cap",
+    "imgs": [
+      "https://i.postimg.cc/YCsgW0Kz/10c825c31bac43468b2e786f57241f11-49360363-649050962177319-562114593696052715-n.jpg",
+      "https://i.postimg.cc/4xq730V8/bb8998319a7c4385836cfb1d1a99db19-50012302-2200761320242419-1954520397334249603-n.jpg",
+      "https://i.postimg.cc/26f1QBHh/c0492b10bab6499f932ec9a844436a32-47693585-2193953530664308-8744629938131655571-n.jpg",
+      "https://i.postimg.cc/x86qVp93/d67c3284bd4d46608a49d7902f2704e1-19051937-235265226964156-2918146504847785984-n.jpg",
+      "https://i.postimg.cc/C1HzmLtt/da2b60129a1347f9a0500ac2129e2186-49906804-325501328306353-1905317788829487918-n.jpg"
+    ],
+    "price": 480,
+    "ratings": 4.6,
+    "description": "Get the urban street look with this stylish snapback cap. The classic design and adjustable fit make it a versatile accessory for your casual outfits."
+  },
+  {
+    "capId": 29,
+    "name": "Urban Street Snapback 2",
+    "category": "Snapback Cap",
+    "imgs": [
+      "https://i.postimg.cc/j2xC9YYj/db0e581b2a5b48af8eaab11ebabb121c-49858615-1957932750982190-2013622731736721141-n.jpg",
+      "https://i.postimg.cc/jSp2T7Ym/f64b7d72769048539bc79fa9d195c7f2-19051406-1857411264520516-8519243643670757376-n.jpg",
+      "https://i.postimg.cc/V6b38J1G/3a7547ec625f4e12b9895df8190e7ac5-117359325-669703573893579-9139374242286486878-n.jpg",
+      "https://i.postimg.cc/Wb7xTLLv/46f20411583346efbc6b322852a96eeb-117404095-622212342054469-2361925431731017118-n.jpg",
+      "https://i.postimg.cc/ZYp1svw0/4ac992118cfc462cb0201de95a30aeb5-258353809-414124570446309-8690844240666179318-n.jpg"
+    ],
+    "price": 490,
+    "ratings": 4.4,
+    "description": "Complete your urban street style with this snapback cap. The sleek design and bold logo add an edgy touch to your overall look."
+  },
+  {
+    "capId": 30,
+    "name": "Urban Street Snapback 3",
+    "category": "Snapback Cap",
+    "imgs": [
+      "https://i.postimg.cc/R0WY7W3S/5313e882285f45db94ffbce25879e511-363812710-219640151057764-9175490023780732668-n.jpg",
+      "https://i.postimg.cc/rFT7ByHj/5bb42d58a73c4b87aca6870e7a82d3a8-117287662-2886737318104473-6146556024592800253-n.jpg",
+      "https://i.postimg.cc/ZntXKJ5T/6eacd32adef24fe69ddef08c99c7c331-251518272-1284966178656035-6873890289547515353-n.jpg",
+      "https://i.postimg.cc/Fzy8YwY0/72fa775be2f04989aad981e58abf0c9e-251172777-314248263463676-1164403439609450078-n.jpg",
+      "https://i.postimg.cc/XvtzQnFw/b570741873fb41248fd9d83ebedf53c5-117226438-701444307106250-2217306946427212469-n.jpg"
+    ],
+    "price": 500,
+    "ratings": 4.7,
+    "description": "Embrace the urban vibe with this snapback cap. The unique patterns and comfortable fit make it a must-have accessory for your street-inspired outfits."
+  },
+  {
+    "capId": 31,
+    "name": "Urban Street Snapback 4",
+    "category": "Snapback Cap",
+    "imgs": [
+      "https://i.postimg.cc/nhcgLRpQ/b63f52694de94f3e8f57848d4b106766-117257168-604461450238047-5087082782328841736-n.jpg",
+      "https://i.postimg.cc/prJcW8SZ/bfce78ae9f044af0be4ba52b4f001329-363872252-1096472107983582-5575326329720057945-n.jpg",
+      "https://i.postimg.cc/bNqF6CGF/c9e38552dd9445eba8e3535501d697b8-363946814-1318383358883521-4079934998972595763-n.jpg",
+      "https://i.postimg.cc/kXwYLQKM/dd1d2e1983f942fdb52502fb1e4bc512-257902048-131021215971492-4973413212224971332-n.jpg",
+      "https://i.postimg.cc/L8XQSJ3t/ef49c089c72b45789e106f2e06788d9c-117183878-186856276168965-2914713289328633279-n.jpg"
+    ],
+    "price": 510,
+    "ratings": 4.5,
+    "description": "Add a touch of urban coolness to your look with this snapback cap. The intricate details and adjustable strap ensure a stylish and comfortable fit."
+  },
+  {
+    "capId": 32,
+    "name": "Urban Street Snapback 5",
+    "category": "Snapback Cap",
+    "imgs": [
+      "https://i.postimg.cc/j2xC9YYj/db0e581b2a5b48af8eaab11ebabb121c-49858615-1957932750982190-2013622731736721141-n.jpg",
+      "https://i.postimg.cc/jSp2T7Ym/f64b7d72769048539bc79fa9d195c7f2-19051406-1857411264520516-8519243643670757376-n.jpg",
+      "https://i.postimg.cc/V6b38J1G/3a7547ec625f4e12b9895df8190e7ac5-117359325-669703573893579-9139374242286486878-n.jpg",
+      "https://i.postimg.cc/Wb7xTLLv/46f20411583346efbc6b322852a96eeb-117404095-622212342054469-2361925431731017118-n.jpg",
+      "https://i.postimg.cc/ZYp1svw0/4ac992118cfc462cb0201de95a30aeb5-258353809-414124570446309-8690844240666179318-n.jpg"
+    ],
+    "price": 490,
+    "ratings": 4.3,
+    "description": "Express your urban style with this snapback cap. The bold logo and vibrant colors create a dynamic look that stands out from the crowd."
+  },
+  {
+    "capId": 33,
+    "name": "Classic Denim Baseball Cap 1",
+    "category": "Baseball Cap",
+    "imgs": [
+      "https://i.postimg.cc/YCsgW0Kz/10c825c31bac43468b2e786f57241f11-49360363-649050962177319-562114593696052715-n.jpg",
+      "https://i.postimg.cc/4xq730V8/bb8998319a7c4385836cfb1d1a99db19-50012302-2200761320242419-1954520397334249603-n.jpg",
+      "https://i.postimg.cc/26f1QBHh/c0492b10bab6499f932ec9a844436a32-47693585-2193953530664308-8744629938131655571-n.jpg",
+      "https://i.postimg.cc/x86qVp93/d67c3284bd4d46608a49d7902f2704e1-19051937-235265226964156-2918146504847785984-n.jpg",
+      "https://i.postimg.cc/C1HzmLtt/da2b60129a1347f9a0500ac2129e2186-49906804-325501328306353-1905317788829487918-n.jpg"
+    ],
+    "price": 380,
+    "ratings": 4.7,
+    "description": "Achieve a timeless look with this classic denim baseball cap. The high-quality denim fabric and adjustable strap provide a comfortable fit."
+  },
+  {
+    "capId": 34,
+    "name": "Classic Denim Baseball Cap 2",
+    "category": "Baseball Cap",
+    "imgs": [
+      "https://i.postimg.cc/j2xC9YYj/db0e581b2a5b48af8eaab11ebabb121c-49858615-1957932750982190-2013622731736721141-n.jpg",
+      "https://i.postimg.cc/jSp2T7Ym/f64b7d72769048539bc79fa9d195c7f2-19051406-1857411264520516-8519243643670757376-n.jpg",
+      "https://i.postimg.cc/V6b38J1G/3a7547ec625f4e12b9895df8190e7ac5-117359325-669703573893579-9139374242286486878-n.jpg",
+      "https://i.postimg.cc/Wb7xTLLv/46f20411583346efbc6b322852a96eeb-117404095-622212342054469-2361925431731017118-n.jpg",
+      "https://i.postimg.cc/ZYp1svw0/4ac992118cfc462cb0201de95a30aeb5-258353809-414124570446309-8690844240666179318-n.jpg"
+    ],
+    "price": 390,
+    "ratings": 4.6,
+    "description": "Elevate your style with this classic denim baseball cap. The vintage-inspired design and durable denim fabric make it a versatile accessory."
+  },
+  {
+    "capId": 35,
+    "name": "Classic Denim Baseball Cap 3",
+    "category": "Baseball Cap",
+    "imgs": [
+      "https://i.postimg.cc/R0WY7W3S/5313e882285f45db94ffbce25879e511-363812710-219640151057764-9175490023780732668-n.jpg",
+      "https://i.postimg.cc/rFT7ByHj/5bb42d58a73c4b87aca6870e7a82d3a8-117287662-2886737318104473-6146556024592800253-n.jpg",
+      "https://i.postimg.cc/ZntXKJ5T/6eacd32adef24fe69ddef08c99c7c331-251518272-1284966178656035-6873890289547515353-n.jpg",
+      "https://i.postimg.cc/Fzy8YwY0/72fa775be2f04989aad981e58abf0c9e-251172777-314248263463676-1164403439609450078-n.jpg",
+      "https://i.postimg.cc/XvtzQnFw/b570741873fb41248fd9d83ebedf53c5-117226438-701444307106250-2217306946427212469-n.jpg"
+    ],
+    "price": 400,
+    "ratings": 4.5,
+    "description": "Experience classic comfort and style with this denim baseball cap. The timeless design and premium denim fabric create a standout accessory."
+  },
+  {
+    "capId": 36,
+    "name": "Classic Denim Baseball Cap 4",
+    "category": "Baseball Cap",
+    "imgs": [
+      "https://i.postimg.cc/nhcgLRpQ/b63f52694de94f3e8f57848d4b106766-117257168-604461450238047-5087082782328841736-n.jpg",
+      "https://i.postimg.cc/prJcW8SZ/bfce78ae9f044af0be4ba52b4f001329-363872252-1096472107983582-5575326329720057945-n.jpg",
+      "https://i.postimg.cc/bNqF6CGF/c9e38552dd9445eba8e3535501d697b8-363946814-1318383358883521-4079934998972595763-n.jpg",
+      "https://i.postimg.cc/kXwYLQKM/dd1d2e1983f942fdb52502fb1e4bc512-257902048-131021215971492-4973413212224971332-n.jpg",
+      "https://i.postimg.cc/L8XQSJ3t/ef49c089c72b45789e106f2e06788d9c-117183878-186856276168965-2914713289328633279-n.jpg"
+    ],
+    "price": 410,
+    "ratings": 4.3,
+    "description": "Complete your casual look with this classic denim baseball cap. The versatile design and comfortable fit make it a go-to accessory."
+  },
+  {
+    "capId": 37,
+    "name": "Classic Denim Baseball Cap 5",
+    "category": "Baseball Cap",
+    "imgs": [
+      "https://i.postimg.cc/j2xC9YYj/db0e581b2a5b48af8eaab11ebabb121c-49858615-1957932750982190-2013622731736721141-n.jpg",
+      "https://i.postimg.cc/jSp2T7Ym/f64b7d72769048539bc79fa9d195c7f2-19051406-1857411264520516-8519243643670757376-n.jpg",
+      "https://i.postimg.cc/V6b38J1G/3a7547ec625f4e12b9895df8190e7ac5-117359325-669703573893579-9139374242286486878-n.jpg",
+      "https://i.postimg.cc/Wb7xTLLv/46f20411583346efbc6b322852a96eeb-117404095-622212342054469-2361925431731017118-n.jpg",
+      "https://i.postimg.cc/ZYp1svw0/4ac992118cfc462cb0201de95a30aeb5-258353809-414124570446309-8690844240666179318-n.jpg"
+    ],
+    "price": 420,
+    "ratings": 4.2,
+    "description": "Enhance your everyday style with this classic denim baseball cap. The high-quality denim fabric and adjustable strap ensure a comfortable fit."
+  }
+  
+]
