@@ -1,0 +1,157 @@
+[
+    {
+      "name": "Classic Cap",
+      "img": "https://i.ibb.co/qBXVyBP/Cap-1.jpg",
+      "price": 650,
+      "ratings": 4,
+      "description": "A timeless classic cap that suits any occasion. With its minimalist design and comfortable fit, it's a versatile accessory for your everyday style."
+    },
+    {
+      "name": "Stylish Denim Cap",
+      "img": "https://i.ibb.co/N1w7fjg/Cap-2.jpg",
+      "price": 750,
+      "ratings": 3,
+      "description": "Add a touch of style with this denim cap. Crafted with high-quality denim fabric, it's perfect for casual outings and adds an effortlessly cool vibe to your look."
+    },
+    {
+      "name": "Sporty Performance Cap",
+      "img": "https://i.ibb.co/mvR9WVZ/Cap-3.jpg",
+      "price": 600,
+      "ratings": 5,
+      "description": "Get ready for any sports activity with this sporty cap. Engineered for performance, its lightweight and breathable design keeps you comfortable while you conquer your goals."
+    },
+    {
+      "name": "Urban Streetwear Cap",
+      "img": "https://i.ibb.co/3rSgCTB/Cap-4.jpg",
+      "price": 580,
+      "ratings": 4,
+      "description": "Elevate your street style with this urban-inspired cap. Its unique design and bold logo make a statement, while the adjustable strap ensures a customized fit."
+    },
+    {
+      "name": "Vintage Camo Cap",
+      "img": "https://i.ibb.co/HKwynFf/Cap-5.jpg",
+      "price": 690,
+      "ratings": 4,
+      "description": "Embrace the retro vibe with this vintage camo cap. The camo pattern adds a touch of nostalgia, and the soft cotton material ensures all-day comfort."
+    },
+    {
+      "name": "Classic Trucker Cap",
+      "img": "https://i.ibb.co/KqgnSHB/Cap-6.jpg",
+      "price": 620,
+      "ratings": 5,
+      "description": "Stay cool and casual with this classic trucker cap. The mesh back provides ventilation, and the adjustable snapback closure ensures a snug fit."
+    },
+    {
+      "name": "Sleek Leather Cap",
+      "img": "https://i.ibb.co/sQ5S6WT/Cap-7.jpg",
+      "price": 880,
+      "ratings": 4,
+      "description": "Elevate your style with this sleek leather cap. Crafted from genuine leather, it adds a touch of sophistication to your outfit and exudes modern elegance."
+    },
+    {
+      "name": "Retro Snapback Cap",
+      "img": "https://i.ibb.co/3kStm18/Cap-8.jpg",
+      "price": 580,
+      "ratings": 3,
+      "description": "Step back in time with this retro snapback cap. Its vibrant colors and vintage design capture the essence of the past while keeping your style fresh."
+    },
+    {
+      "name": "Active Mesh Cap",
+      "img": "https://i.ibb.co/fQjLfks/Cap-9.jpg",
+      "price": 520,
+      "ratings": 5,
+      "description": "Stay active and stylish with this mesh cap. The breathable mesh material keeps you cool during workouts, and the adjustable strap ensures a secure fit."
+    },
+    {
+      "name": "Minimalist Logo Cap",
+      "img": "https://i.ibb.co/XzP7CWk/Cap-10.jpg",
+      "price": 450,
+      "ratings": 4,
+      "description": "Keep it simple and stylish with this minimalist logo cap. The clean design and subtle logo embroidery make it a versatile accessory for any outfit."
+    },
+    {
+      "name": "Outdoor Adventure Cap",
+      "img": "https://i.ibb.co/T292YPJ/Cap-11.jpg",
+      "price": 690,
+      "ratings": 5,
+      "description": "Gear up for outdoor explorations with this adventure cap. Its durable construction and adjustable strap ensure a comfortable fit on all your journeys."
+    },
+    {
+      "name": "Classic Baseball Cap",
+      "img": "https://i.ibb.co/K6T3xRp/Cap-12.jpg",
+      "price": 580,
+      "ratings": 4,
+      "description": "The classic baseball cap never goes out of style. With a curved brim and embroidered logo, it's a versatile accessory for everyday wear."
+    },
+    {
+      "name": "Vintage Logo Cap",
+      "img": "https://i.ibb.co/WWvX2F3/Cap-13.jpg",
+      "price": 620,
+      "ratings": 4,
+      "description": "Capture the essence of vintage with this logo cap. The retro-inspired design and distressed logo add character to your casual look."
+    },
+    {
+      "name": "Casual Dad Cap",
+      "img": "https://i.ibb.co/df6Mmnq/Cap-14.jpg",
+      "price": 480,
+      "ratings": 3,
+      "description": "Embrace the casual cool of a dad cap. With its relaxed fit and curved brim, it's the perfect accessory to complete your laid-back style."
+    },
+    {
+      "name": "Urban Snapback Cap",
+      "img": "https://i.ibb.co/XSyC1TY/Cap-15.jpg",
+      "price": 560,
+      "ratings": 4,
+      "description": "Elevate your streetwear game with this urban snapback cap. Its bold design and structured fit make a statement wherever you go."
+    },
+    {
+      "name": "Vintage Corduroy Cap",
+      "img": "https://i.ibb.co/ZdRvvYJ/Cap-16.jpg",
+      "price": 720,
+      "ratings": 5,
+      "description": "Add a touch of nostalgia with this vintage corduroy cap. The textured fabric and adjustable strap combine style and comfort in one."
+    },
+    {
+      "name": "Color Block Cap",
+      "img": "https://i.ibb.co/FHppXs2/Cap-17.jpg",
+      "price": 520,
+      "ratings": 4,
+      "description": "Make a bold statement with this color block cap. The vibrant colors and modern design add a pop of energy to your ensemble."
+    },
+    {
+      "name": "Premium Wool Cap",
+      "img": "https://i.ibb.co/C1WD5Z7/Cap-18.jpg",
+      "price": 850,
+      "ratings": 5,
+      "description": "Elevate your winter style with this premium wool cap. The warm and soft wool material ensures cozy comfort, even on the coldest days."
+    },
+    {
+      "name": "Vintage Patch Cap",
+      "img": "https://i.ibb.co/gtHxKR6/Cap-19.jpg",
+      "price": 590,
+      "ratings": 4,
+      "description": "Add character to your look with this vintage patch cap. The distressed patches and classic design give a nod to retro aesthetics."
+    },
+    {
+      "name": "Athletic Performance Cap",
+      "img": "https://i.ibb.co/X8GCRfH/Cap-20.jpg",
+      "price": 670,
+      "ratings": 5,
+      "description": "Maximize your athletic performance with this high-tech cap. It's designed to wick away sweat and provide optimal ventilation, keeping you focused on your goals."
+    },
+    {
+      "name": "Classic Tweed Cap",
+      "img": "https://i.ibb.co/yfpWDks/Cap-21.jpg",
+      "price": 720,
+      "ratings": 4,
+      "description": "Elevate your style with this classic tweed cap. The sophisticated tweed fabric adds texture and refinement to your outfit."
+    },
+    {
+      "name": "Modern Logo Cap",
+      "img": "https://i.ibb.co/jM9d4ts/Cap-22.jpg",
+      "price": 560,
+      "ratings": 4,
+      "description": "Make a statement with this modern logo cap. The bold logo embroidery and sleek design add a contemporary touch to your look."
+    }
+  ]
+  

@@ -1,9 +1,79 @@
+/* eslint-disable no-empty */
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 // eslint-disable-next-line no-unused-vars
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { useContext, user } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProvider";
+import { toast } from "react-hot-toast";
+import Swal from "sweetalert2";
 
 const LogIn = () => {
+  const { user, Login } = useContext(AuthContext);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  // console.log(email,password);
+
+  const from = location.state?.from?.pathname || "/";
+  // console.log("Login Location is :-",from);
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  };
+
+  const handleCheckboxChange = (e) => {
+    setShowPassword(e.target.checked);
+  };
+
+  const handleLogIn = async (e) => {
+    e.preventDefault();
+    const form = e.target;
+    try {
+      const loggedUser = await Login(email, password);
+      // console.log("Logged User is :-", loggedUser);
+      if (!loggedUser.user.emailVerified) {
+        Swal.fire({
+          icon: "warning",
+          title: "Email Verification Required",
+          text: "Please verify your email before logging in.",
+        });
+        return;
+      }
+
+      Swal.fire({
+        icon: "success",
+        title: "Good Job!",
+        text: "Login Successfully",
+      }).then(() => {
+        form.reset();
+        // Redirect
+        navigate(from, { replace: true });
+      });
+    } catch (error) {
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: `${
+          error.message === "Firebase: Error (auth/user-not-found)."
+            ? "User is Not Found "
+            : "Wrong Password"
+        }`,
+        footer: "Please Enter Correct User ID And Password",
+      });
+
+      console.log(error);
+    }
+  };
+
   return (
     <div>
       <section className="min-h-screen flex items-center">
@@ -20,7 +90,7 @@ const LogIn = () => {
 
             {/* <!-- Right column container with form --> */}
             <div className="w-10/12 md:w-8/12 lg:ml-6 lg:w-5/12 p-5 bg-slate-900 rounded-xl text-white">
-              <form>
+              <form onSubmit={handleLogIn}>
                 {/* <!-- Email input --> */}
 
                 <div className="form-control">
@@ -31,8 +101,10 @@ const LogIn = () => {
                   </label>
                   <input
                     type="text"
+                    name="email"
                     placeholder="Email"
                     className="input input-bordered"
+                    onChange={handleEmailChange}
                   />
                 </div>
                 {/* <!-- Password input --> */}
@@ -43,9 +115,11 @@ const LogIn = () => {
                     </span>
                   </label>
                   <input
-                    type="text"
+                    type={showPassword ? "text" : "password"}
+                    name="password"
                     placeholder="password"
                     className="input input-bordered"
+                    onChange={handlePasswordChange}
                   />
                 </div>
                 {/* <!-- Remember me checkbox --> */}
@@ -56,12 +130,14 @@ const LogIn = () => {
                       type="checkbox"
                       value=""
                       id="exampleCheck3"
+                      onChange={handleCheckboxChange}
                     />
                     <label
                       className=" text-white  font-bold inline-block pl-[0.15rem] hover:cursor-pointer"
                       htmlFor="exampleCheck3"
+                      
                     >
-                      Remember me
+                      Show Password
                     </label>
                   </div>
 
@@ -76,8 +152,8 @@ const LogIn = () => {
 
                 {/* <!-- Submit button --> */}
                 <button className="block w-full shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500">
-                      LogIn
-                  </button>
+                  LogIn
+                </button>
                 {/* <!-- Divider --> */}
                 <div className="my-4 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300">
                   <p className="mx-4 mb-0 text-center font-semibold dark:text-neutral-200">
@@ -126,7 +202,7 @@ const LogIn = () => {
                 <div className="flex items-center justify-center mt-5">
                   <p className="mb-0 mr-2">
                     Don't have an account?
-                    <Link className="underline hover:text-red-600">
+                    <Link to="/signup" className="underline hover:text-red-600">
                       Register
                     </Link>
                   </p>

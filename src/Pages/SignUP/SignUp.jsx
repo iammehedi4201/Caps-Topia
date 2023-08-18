@@ -1,7 +1,126 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
+/* eslint-disable no-empty */
+import { useContext, useState } from "react";
+import { toast } from "react-hot-toast";
+import { AuthContext } from "../../Provider/AuthProvider";
+import Swal from "sweetalert2";
+import { Link, useNavigate } from "react-router-dom";
 
+/* eslint-disable no-unused-vars */
 const SignUp = () => {
+  const { createUser,user} = useContext(AuthContext);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [name, setName] = useState("");
+  const [photoUrl, setPhotoUrl] = useState("");
+  const navigate = useNavigate();
+
+  // console.log("The user Info are:-", email, password, name, photoUrl);
+
+  const handleNameChange = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  };
+
+  const handleConfirmPassword = (e) => {
+    setConfirmPassword(e.target.value);
+  };
+
+  const handlePhotoUrl = (e) => {
+    setPhotoUrl(e.target.value);
+  };
+
+  //validateName
+
+   const validateName = (name) => {
+    const namePattern = /^[a-zA-Z\s-]+$/;
+
+    if (!name.match(namePattern)) {
+      toast.error('Invalid Name. Only letters, spaces, and hyphens are allowed.');
+      return false;
+    }
+
+    return true;
+  };
+
+  //validateEmail
+
+   const validateEmail = (email) => {
+    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+    if (!email.match(emailPattern)) {
+      toast.error('Invalid email address.');
+      return false;
+    }
+
+    return true;
+  };
+
+  //validatePassword
+
+  const validatePassword = (password, confirmPassword) => {
+    const passwordPattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
+
+    if (!password.match(passwordPattern)) {
+      toast.error(
+        'Password must contain at least 6 characters, including one uppercase letter, one lowercase letter, and one digit.'
+      );
+      return false;
+    }
+
+    if (password !== confirmPassword) {
+      toast.error('Passwords do not match.');
+      return false;
+    }
+
+    return true;
+  };
+
+  //handleSignUp
+
+  const handleSignUp = async (event) => {
+    event.preventDefault();
+    const form =event.target;
+    const isNameValid = validateName(name);
+    const isEmailValid = validateEmail(email);
+    const isPasswordValid = validatePassword(password, confirmPassword);
+
+    if (isNameValid && isEmailValid && isPasswordValid) {
+      try {
+        const currentUse = await createUser(email, password,name,photoUrl);
+        Swal.fire({
+          title: "Success!",
+          text: "User Created Successfully. Check your email for verification link.",
+          icon: "success",
+          confirmButtonText: "Log In",
+        }).then((result) => {
+          if (result.isConfirmed) {
+            // Redirect user to login page
+            navigate("/login");
+          }
+        });
+      } catch (error) {
+        Swal.fire({
+          title: "Oops...",
+          text: `${
+            error.message === "Firebase: Error (auth/email-already-in-use)."
+              ? "Email Already In Use"
+              : error.message
+          }`,
+          icon: "error",
+          footer: "Please Enter Another Account To Enter",
+        });
+      }
+    }
+  };
+
   return (
     <div>
       <section className="bg-black text-white ">
@@ -71,33 +190,42 @@ const SignUp = () => {
                 </p>
               </div>
 
-              <form action="#" className="mt-8 grid grid-cols-6 gap-6">
-                <div className="col-span-6 sm:col-span-3">
+              {/* form start from here  */}
+
+              <form
+                onSubmit={handleSignUp}
+                className="mt-8 grid grid-cols-6 gap-6"
+              >
+                {/* <div className="col-span-6 sm:col-span-3">
                   <div className="form-control">
                     <label className="label">
                       <span className="label-text text-white text-lg font-bold">
-                        First Name 
+                        First Name
                       </span>
                     </label>
                     <input
                       type="text"
+                      name="firstName"
                       placeholder="First Name "
-                      className="input input-bordered text-black"
+                      className="input input-bordered text-white"
                     />
                   </div>
-                </div>
+                </div> */}
 
-                <div className="col-span-6 sm:col-span-3">
+                <div className="col-span-6">
                   <div className="form-control">
                     <label className="label">
                       <span className="label-text text-white text-lg font-bold">
-                        Last Name 
+                        Name
                       </span>
                     </label>
                     <input
                       type="text"
-                      placeholder="Last Name "
-                      className="input input-bordered text-black"
+                      name="name"
+                      placeholder="Name "
+                      className="input input-bordered text-white"
+                      onChange={handleNameChange}
+                      required
                     />
                   </div>
                 </div>
@@ -106,13 +234,33 @@ const SignUp = () => {
                   <div className="form-control">
                     <label className="label">
                       <span className="label-text text-white text-lg font-bold">
-                        Email 
+                        PhotoURL
+                      </span>
+                    </label>
+                    <input
+                      type="text"
+                      name="photoUrl"
+                      placeholder="PhotoURL"
+                      className="input input-bordered text-white"
+                      onChange={handlePhotoUrl}
+                    />
+                  </div>
+                </div>
+
+                <div className="col-span-6">
+                  <div className="form-control">
+                    <label className="label">
+                      <span className="label-text text-white text-lg font-bold">
+                        Email
                       </span>
                     </label>
                     <input
                       type="email"
+                      name="email"
                       placeholder="Email"
-                      className="input input-bordered text-black"
+                      className="input input-bordered text-white"
+                      onChange={handleEmailChange}
+                      required
                     />
                   </div>
                 </div>
@@ -126,8 +274,11 @@ const SignUp = () => {
                     </label>
                     <input
                       type="text"
+                      name="password"
                       placeholder="password"
-                      className="input input-bordered text-black"
+                      className="input input-bordered text-white"
+                      onChange={handlePasswordChange}
+                      required
                     />
                   </div>
                 </div>
@@ -141,8 +292,11 @@ const SignUp = () => {
                     </label>
                     <input
                       type="text"
+                      name="confirmPassword"
                       placeholder="password"
-                      className="input input-bordered text-black"
+                      className="input input-bordered text-white"
+                      onChange={handleConfirmPassword}
+                      required
                     />
                   </div>
                 </div>
@@ -166,11 +320,11 @@ const SignUp = () => {
                 <div className="col-span-6">
                   <p className="text-sm text-white">
                     By creating an account, you agree to our
-                    <a href="#" className="mx-2 text-white underline">
+                    <a href="#" className="mx-2 link link-accent">
                       terms and conditions
                     </a>
                     and
-                    <a href="#" className=" mx-2 text-white underline">
+                    <a href="#" className=" mx-2 link link-success">
                       privacy policy
                     </a>
                     .
@@ -184,10 +338,9 @@ const SignUp = () => {
 
                   <p className="mt-4 text-sm text-white sm:mt-0">
                     Already have an account?
-                    <a href="#" className="text-white underline mx-1">
+                    <Link to='/login' className="link link-error mx-2">
                       Log in
-                    </a>
-                    .
+                    </Link>
                   </p>
                 </div>
               </form>
